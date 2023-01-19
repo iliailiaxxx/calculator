@@ -1,0 +1,192 @@
+*:focus {
+    outline: none;
+}
+button{
+    
+    border:1px solid rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    background-color: #f6d60d;
+    color: black;
+    border-radius: 3px;
+    height: 50px;
+}
+.calculatorsButtons{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 20%; */
+}
+.arcs{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+}
+.main{
+    align-items: center;
+    display: grid;
+    padding: 2px;
+    background-color: black;
+    width: 210px;
+}
+#result{
+    caret-color: transparent;
+    overflow: visible;
+    text-align: right;
+    border:1px solid rgb(0, 0, 0);
+    height: 50px;
+    margin-bottom: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #f6d60d;
+    color: black;
+    border-radius: 3px;
+}
+#equalClipBoard{
+    grid-column: 1/2;
+}
+#equal{
+    grid-column: 2/5;
+}
+.previousResultsDiv{
+    width: 210px;
+    height: 50px;
+    overflow-y: scroll;
+    align-items:justify;
+    flex-direction: column-reverse;
+    display: flex;
+}
+.previousResultsDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.previousResultBTN{
+    color: rgba(0, 0, 0, 0.582);
+    text-align: right;
+    white-space: nowrap;
+    background-color: #f6d60d;
+    text-overflow: ellipsis;
+    height: 30px;
+
+}
+
+
+
+
+
+
+.boxesCalculations{
+    padding: 2px;
+    background-color: black;
+    width: 210px;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 1px;
+  
+}
+.boxesCalculationsInput{
+    background-color: #f6d60d;
+    text-align: right;
+    box-sizing: border-box;
+    border:1px solid rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+#boxDimensions{
+    grid-column: 1/4;
+}
+
+
+
+
+
+
+
+.incheslbsCalculations{
+    padding: 2px;
+    background-color: black;
+    width: 210px;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-gap: 1px;
+  
+}
+.incheslbsCalculationsInput{
+    background-color: #f6d60d;
+    text-align: right;
+    box-sizing: border-box;
+    border:1px solid rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+.boxesCalculationsRates{
+    padding: 2px;
+    background-color: black;
+    width: 210px;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-gap: 1px;
+  
+}
+.boxesCalculationsInputRates{
+    background-color: #f6d60d;
+    text-align: start;
+    box-sizing: border-box;
+    border:1px solid rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+#ratesInput{
+    height: 150px;
+    font-size: small;
+}
+#ratesInput::-webkit-scrollbar{
+    display: none;
+}
+
+#cargoInput{
+    height: 150px;
+    font-size: small;
+}
+#cargoInput::-webkit-scrollbar{
+    display: none;
+}
+#ratesButtonClient{
+    height: 20px;
+    font-size: small;
+
+}
+#ratesButtonManager{
+    height: 20px;
+    font-size: small;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}

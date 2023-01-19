@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body id="body">
+<div class="main" id="main">
+    <div class="previousResultsDiv">
+        <button class="previousResultBTN" id="previousResultBTN1" ></button>
+        <button class="previousResultBTN" id="previousResultBTN2" ></button>
+        <button class="previousResultBTN" id="previousResultBTN3" ></button>
+        <button class="previousResultBTN" id="previousResultBTN4" ></button>
+    </div>
+        <input id="result" placeholder="0"></input>
+    <div class="calculatorsButtons">
+        <button id="volumetricWeight">*168</button><button id="square">x²</button><button id="deletef">C</button><button id="deleteLastDigit">⌫</button>
+   
+        <button id="num1">1</button><button id="num2">2</button><button id="num3">3</button><button id="num+">+</button>
+    
+        <button id="num4">4</button><button id="num5">5</button><button id="num6">6</button><button id="num-">-</button>
+    
+        <button id="num7">7</button><button id="num8">8</button><button id="num9">9</button><button id="num*">*</button>
+    
+        <div class="arcs"><button class="arc" id="num(">(</button><button class="arc" id="num)">)</button></div><button id="num0">0</button><button id="num.">.</button><button id="num/">/</button>
+    
+        <button id="equalClipBoard" >CB</button><button id="equal">=</button>
+    </div>
+</div>
+<div class="boxesCalculations">
+    <input class="boxesCalculationsInput" id = "boxDimensions" placeholder="dimensions">
+    <input class="boxesCalculationsInput" id ="boxNumber"  placeholder="number">
+    <input class="boxesCalculationsInput" id ="boxWeight"  placeholder="weight">
+    <button class="boxesCalculationsInput" id="boxesCalculationandtoCB">=</button>
+</div>
+<div class="incheslbsCalculations">
+    <input class="incheslbsCalculationsInput" id = "inchesIn" placeholder="inches"><input class="incheslbsCalculationsInput" id = "inchesOut" placeholder="0">
+    <input class="incheslbsCalculationsInput" id = "lbsIn" placeholder="lbs"><input class="incheslbsCalculationsInput" id = "lbsOut" placeholder="0">
+</div>
+<div class="boxesCalculationsRates">
+    <textarea  class="boxesCalculationsInputRates" id="ratesInput" placeholder="Rates"></textarea>
+    <textarea  class="boxesCalculationsInputRates" id="cargoInput" placeholder="Cargo"></textarea>
+    <input class="boxesCalculationsInputRates" id="combinedMatsonNumber" placeholder="matson">
+    <button id="ratesButtonManager"> Manager </button>
+    <button id="ratesButtonClient"> Client </button>
+</div>
+
+<script src="js.js" defer></script>
+</body>
+</html>

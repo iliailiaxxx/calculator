@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body id="body">
+<div class="main" id="main">
+    <div class="previousResultsDiv">
+        <button class="previousResultBTN" id="previousResultBTN1" onclick="previousResulttoCB(0)"></button>
+        <button class="previousResultBTN" id="previousResultBTN2" onclick="previousResulttoCB(1)"></button>
+        <button class="previousResultBTN" id="previousResultBTN3" onclick="previousResulttoCB(2)"></button>
+        <button class="previousResultBTN" id="previousResultBTN4" onclick="previousResulttoCB(3)"></button>
+    </div>
+        <input id="result" placeholder="0"></input>
+    <div class="calculatorsButtons">
+        <button onclick="volumetricWeight()">*168</button><button onclick="square()">x²</button><button onclick="deletef()">C</button><button onclick="deleteLastDigit()">⌫</button>
+   
+        <button id="num1" onclick="num(1, num1)">1</button><button id="num2" onclick="num(2, num2)">2</button><button id="num3" onclick="num(3, num3)">3</button><button onclick="num('+')">+</button>
+    
+        <button id="num4" onclick="num(4, num4)">4</button><button id="num5" onclick="num(5, num5)">5</button><button id="num6" onclick="num(6, num6)">6</button><button onclick="num('-')">-</button>
+    
+        <button id="num7" onclick="num(7, num7)">7</button><button id="num8" onclick="num(8, num8)">8</button><button id="num9" onclick="num(9, num9)">9</button><button onclick="num('*')">*</button>
+    
+        <div class="arcs"><button class="arc" onclick="num('(')">(</button><button class="arc" onclick="num(')')">)</button></div><button id="num0" onclick="num(0, num0)">0</button><button id="num." onclick="num('.', num0)">.</button><button onclick="num('/')">/</button>
+    
+        <button id="equalClipBoard" onclick="equalClipBoard()">CB</button><button id="equal" onclick="equal()">=</button>
+    </div>
+</div>
+<div class="boxesCalculations">
+    <input class="boxesCalculationsInput" id = "boxDimensions" placeholder="dimensions">
+    <input class="boxesCalculationsInput" id ="boxNumber"  placeholder="number">
+    <input class="boxesCalculationsInput" id ="boxWeight"  placeholder="weight">
+    <button class="boxesCalculationsInput" onclick="boxesCalculationandtoCB()">=</button>
+</div>
+
+<div id="test">
+
+</div>
+<script src="js.js" defer></script>
+</body>
+</html>
